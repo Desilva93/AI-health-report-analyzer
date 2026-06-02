@@ -108,7 +108,7 @@ AI generates:
 
 ## 📸 Application Preview
 
-Add screenshots of the application here.
+![Blood Work Analyzer](Analysis_image.png)
 
 Example:
 
