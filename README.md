@@ -4,6 +4,8 @@ An AI-powered Blood Work Analyzer built using **Streamlit, LangChain, and Google
 
 ---
 
+![](Analysis_image.png)
+
 ## 🚀 Features
 
 ✅ Upload or paste blood work reports  
@@ -106,9 +108,7 @@ AI generates:
 
 ---
 
-## 📸 Application Preview
-
-![Blood Work Analyzer](Analysis_image.png)
+## 📸 Application
 
 Example:
 
