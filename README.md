@@ -40,7 +40,7 @@ AI-health-report-analyzer/
 ├── .env                    # API key file
 ├── README.md               # Project documentation
 ├── bloodwork.txt           # Sample blood report
-├── Analysis_Image.png   # Application preview image
+├── Analysis_Image.png      # Application preview image
 └── LICENSE
 ```
 
