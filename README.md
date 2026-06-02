@@ -1,137 +1,129 @@
-# 🩸 Blood Work Analyzer using Gemini + LangChain + Streamlit
+# 🩸 AI Health Report Analyzer
 
-## Project Overview
-Blood Work Analyzer is an AI-powered healthcare application that analyzes blood test reports and generates:
-
-- Blood parameter extraction
-- HIGH / LOW / NORMAL classification
-- Health summary in simple language
-- Personalized Indian diet recommendations
-
-The project uses:
-- Google Gemini (gemini-2.5-flash)
-- LangChain
-- Streamlit
-- Python
-- Prompt Engineering
+An AI-powered Blood Work Analyzer built using **Streamlit, LangChain, and Google Gemini** that analyzes blood test reports and generates easy-to-understand **health summaries** along with **Indian diet recommendations**.
 
 ---
 
-## Repository Structure
+## 🚀 Features
+
+✅ Upload or paste blood work reports  
+✅ AI-based blood value extraction  
+✅ Detect HIGH / LOW / NORMAL parameters  
+✅ Generate simple health summaries  
+✅ Personalized Indian diet suggestions  
+✅ Interactive Streamlit UI  
+✅ Powered by Google Gemini + LangChain  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- LangChain
+- Google Gemini API
+- Python Dotenv
+- Jupyter Notebook
+
+---
+
+## 📂 Project Structure
 
 ```bash
-Blood-Work-Analyzer/
+AI-health-report-analyzer/
 │
-├── app/
-│   └── app.py
-├── data/
-│   └── sample_bloodwork.txt
-├── notebooks/
-│   └── HealthAnalysis.ipynb
-├── requirements.txt
-├── .env.example
-└── README.md
+├── main.py                 # Streamlit application
+├── HealthAnalysis.ipynb    # Development notebook
+├── Requirements.txt        # Dependencies
+├── .env                    # API key file
+├── README.md               # Project documentation
+└── LICENSE
 ```
 
 ---
 
-## Features
+## ⚙️ Installation
 
-### Stage 1: Blood Report Extraction
-The LLM:
-- Reads blood report
-- Extracts all parameters
-- Compares with reference range
-- Labels as:
-  - HIGH
-  - LOW
-  - NORMAL
+Clone the repository:
 
-### Stage 2: Health Summary + Diet Plan
-The LLM then:
-- Generates simple health interpretation
-- Creates Indian diet recommendations
-- Suggests foods to avoid and foods to eat
+```bash
+git clone https://github.com/Desilva93/AI-health-report-analyzer.git
+```
+
+Move into the project folder:
+
+```bash
+cd AI-health-report-analyzer
+```
+
+Install dependencies:
+
+```bash
+pip install -r Requirements.txt
+```
 
 ---
 
-## Installation
+## 🔑 Setup API Key
+
+Create a `.env` file and add your Gemini API key:
+
+```python
+GOOGLE_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run the Application
+
+Start the Streamlit app:
+
+```bash
+streamlit run main.py
+```
+
+The application will open in your browser.
+
+---
+
+## 🧠 How It Works
 
 ### Step 1
-Clone repository
-
-```bash
-git clone <your_repo_link>
-cd Blood-Work-Analyzer
-```
+Paste blood report into the input box.
 
 ### Step 2
-Create environment
+Gemini extracts blood test values and identifies whether values are:
 
-```bash
-python -m venv venv
-```
-
-Activate:
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Mac/Linux:
-
-```bash
-source venv/bin/activate
-```
+- HIGH
+- LOW
+- NORMAL
 
 ### Step 3
-Install dependencies
+AI generates:
 
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4
-Create .env
-
-```bash
-GOOGLE_API_KEY=your_api_key
-```
-
-### Step 5
-Run Streamlit
-
-```bash
-streamlit run app/app.py
-```
+- Health Summary
+- Indian Diet Recommendations
 
 ---
 
-## Sample Result
+## 📸 Application Preview
 
-Input:
-- CBC
-- Lipid panel
-- Metabolic panel
-- Liver function values
+Add screenshots of the application here.
 
-Output:
-- Health summary
-- Cholesterol risk interpretation
-- Indian diet recommendations
+Example:
+
+- Blood report input
+- Health summary output
+- Diet recommendation section
 
 ---
 
-## Future Improvements
-- PDF report upload
-- OCR support
-- Medical charts and trends
-- Downloadable health reports
+## 🔮 Future Improvements
+
+- PDF blood report upload
+- OCR support for scanned reports
+- Downloadable PDF reports
+- Health risk visualization
 - Multi-language support
 
 ---
-
-## Author
-Developed as an AI + Healthcare NLP project using Gemini and LangChain.
