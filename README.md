@@ -25,7 +25,7 @@ An AI-powered Blood Work Analyzer built using **Streamlit, LangChain, and Google
 - LangChain
 - Google Gemini API
 - Python Dotenv
-- Jupyter Notebook
+- Visual Studio Code (VS Code)
 
 ---
 
@@ -39,6 +39,8 @@ AI-health-report-analyzer/
 ├── Requirements.txt        # Dependencies
 ├── .env                    # API key file
 ├── README.md               # Project documentation
+├── bloodwork.txt           # Sample blood report
+├── Analysis_Image.png   # Application preview image
 └── LICENSE
 ```
 
