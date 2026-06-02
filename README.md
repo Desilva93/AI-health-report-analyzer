@@ -4,7 +4,7 @@ An AI-powered Blood Work Analyzer built using **Streamlit, LangChain, and Google
 
 ---
 
-![](Analysis_image.png)
+![](Analysis_Image.png)
 
 ## 🚀 Features
 
