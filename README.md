@@ -2,11 +2,9 @@
 
 An AI-powered Blood Work Analyzer built using **Streamlit, LangChain, and Google Gemini** that analyzes blood test reports and generates easy-to-understand **health summaries** along with **Indian diet recommendations**.
 
----
-
 ![](Analysis_Image.png)
 
---
+---
 
 ## 🚀 Features
 
